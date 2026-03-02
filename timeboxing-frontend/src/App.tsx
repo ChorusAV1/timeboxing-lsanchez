@@ -6,7 +6,7 @@ import Scheduler from "./pages/Scheduler"
 function App()
 {
 	return (
-		<>
+		<div className="flex flex-col h-screen">
 			<BrowserRouter>
 				<Routes>
 					<Route path="/" element={<Login/>}/>
@@ -15,7 +15,7 @@ function App()
 					<Route path="*" element={<Navigate to="/"/>}/>
 				</Routes>
 			</BrowserRouter>
-		</>
+		</div>
 	)
 }
 
