@@ -19,6 +19,8 @@ const Login: React.FC = (): JSX.Element =>
                     <input
                         name='Email'
                         className='bg-[#181818] rounded p-2'
+                        placeholder='correo@ejemplo.com'
+                        type='email'
                     />
                 </div>
 
@@ -29,6 +31,8 @@ const Login: React.FC = (): JSX.Element =>
                     <input
                         name='Contrañesa'
                         className='bg-[#181818] rounded p-2'
+                        placeholder='C0ntr@seña77'
+                        type="password"
                     />
                 </div>
                 
